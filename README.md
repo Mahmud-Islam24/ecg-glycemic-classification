@@ -100,5 +100,20 @@ ecg-glycemic-classification/
 │   └── tables/
 │
 └── notebooks/
+
+The current notebook contains: 
+our notebook contains scripts that naturally become these experiments/ entry points:
+
+HR extraction pipeline → experiments/01_hr_extraction.py
+
+3-class ND/PD/T2D training → experiments/02_three_class_training.py
+
+Binary CM+ROC (3 scenarios) → experiments/03_binary_three_scenarios.py
+
+Binary CM+ROC (2 scenarios) → experiments/04_binary_two_scenarios.py
+
+Fig 3 heatmap + best model + rank → experiments/05_fig3_heatmap_rank.py
+
+LR coefficients + SHAP → experiments/06_shap_pipeline.py
     ├── 00_frozen_submission_snapshot.ipynb
     └── 01_demo.ipynb
