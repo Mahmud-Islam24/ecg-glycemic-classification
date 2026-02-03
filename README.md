@@ -112,6 +112,8 @@ Binary CM+ROC (3 scenarios) → experiments/03_binary_three_scenarios.py
 
 Binary CM+ROC (2 scenarios) → experiments/04_binary_two_scenarios.py
 
+Data availability: This repository does not include the AI-READI dataset or participant-level derived data. The AI-READI dataset is available via FAIRhub upon completion of the AI-READI access process and agreement to the AI-READI data usage license.
+
 Fig 3 heatmap + best model + rank → experiments/05_fig3_heatmap_rank.py
 
 LR coefficients + SHAP → experiments/06_shap_pipeline.py
